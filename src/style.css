@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: Inter;
+    background-color: #23252C;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.info--style {
+    background-color: #1A1B21;
+    width: 317px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.user--name {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.user--position {
+    color: #F3BF99;
+    font-size: 12.8px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+
+.user--website {
+    color: #F5F5F5;
+    font-size: 10.24px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.buttons  {
+    display: flex;
+    justify-content: center;
+    background-color: #1A1B21;
+    padding-top: 20px;
+   
+
+}
+.buttons > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 34px;
+    
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+   
+}
+
+.button-mail {
+    margin-right: 17px;
+    color: #374151;
+    border: none;
+}
+
+.button-mail > img {
+    margin-right: 8px;
+}
+
+.button-linkedin {
+    background-color: #5093E2;
+    border: none;
+    color: white;
+}
+
+.button-linkedin >img {
+    margin-right: 8px;
+}
+
+.about--style {
+    width: 317px;
+    text-align: left;
+    background-color: #1A1B21;
+}
+
+.about--header  {
+    width: 247px;
+    margin:0px;
+    padding-left: 37px;
+    padding-top: 25px;
+    color: #F5F5F5;
+    font-size: 16px;
+}
+
+.about--paragraph {
+    width: 247px;
+    padding-left: 37px;
+    color: #DCDCDC;
+    font-size: 10.24px;
+    margin-bottom: 0px;
+}
+
+.interests--style {
+    width: 317px;
+    text-align: left;
+    background-color: #1A1B21;
+}
+
+.interests--header {
+    width: 247px;
+    margin: 0px;
+    padding-left: 37px;
+    padding-top: 25px;
+    color: #F5F5F5;
+    font-size: 16px;
+}
+
+.interests--paragraph {
+    width: 247px;
+    padding-left: 37px;
+    color: #DCDCDC;
+    font-size: 10.24px;
+    padding-bottom: 35px;
+    margin-bottom: 0px;
+
+}
+.footer--style {
+    display: flex;
+    justify-content: center;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer--style > a {
+    text-align: center;
+    padding: 25px 13px 20px 13px;
+}
